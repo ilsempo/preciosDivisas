@@ -12,10 +12,10 @@ h1 {
 
 img {
     
-   width: 20%;
-   height: 50%;
-   margin-top: .25rem;
-   font-size: xx-large;
+   /* width: 50%; */
+   height: 60%;
+   /* margin-top: .25rem;
+   font-size: xx-large; */
 }
 
 i {
@@ -29,6 +29,7 @@ span {
 
 h3 {
     font-size: 1.8rem;
+    margin-left: .5rem;
 }
 
 .secondary {
@@ -41,7 +42,7 @@ h3 {
     }
 
     img {
-        width: 25%;
+
         height: 50%;
     }
 
