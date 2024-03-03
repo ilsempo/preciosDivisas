@@ -12,6 +12,10 @@ let blue = document.getElementById("blue-compra");
 let blueAvg = document.getElementById("blue-promedio");
 let blueSell = document.getElementById("blue-venta");
 
+let oficial = document.getElementById("oficial-compra");
+let oficialAvg = document.getElementById("oficial-promedio");
+let oficialSell = document.getElementById("oficial-venta");
+
 let euro = document.getElementById("euro-compra");
 let euroAvg = document.getElementById("euro-promedio");
 let euroSell = document.getElementById("euro-venta");
@@ -45,6 +49,10 @@ const mostrarDataDolarEuro = (data) => {
     blue.textContent = `= $${data.blue.value_buy} ARS`;
     blueAvg.textContent = `= $${data.blue.value_avg} ARS`;
     blueSell.textContent = `= $${data.blue.value_sell} ARS`;
+
+    oficial.textContent = `= $${data.oficial.value_buy} ARS`;
+    oficialAvg.textContent = `= $${data.oficial.value_avg} ARS`;
+    oficialSell.textContent = `= $${data.oficial.value_sell} ARS`;
 
     euro.textContent = `= $${data.blue_euro.value_buy} ARS`;
     euroAvg.textContent = `= $${data.blue_euro.value_avg} ARS`;
